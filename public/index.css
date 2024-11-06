@@ -15,12 +15,14 @@ body {
 .pet-list {
     width: 100%;
 }
-.header__background-effect{
+
+.header__background-effect {
     top: 0;
     left: 0;
     position: absolute;
     z-index: -1;
 }
+
 .section1-header {
     display: flex;
     align-items: center;
@@ -276,6 +278,7 @@ body {
     width: calc((100% - 20*2px)/3);
     box-shadow: 0px 4px 28px -2px #00000014;
     border-radius: 12px;
+    height: 424px;
 }
 
 .section3 .item img {
@@ -331,4 +334,14 @@ body {
     font-size: 14px;
     line-height: 20px;
     color: #242B33;
+    line-clamp: 3;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.item2 .item__comment {
+    line-clamp: 4;
+    -webkit-line-clamp: 4;
 }
