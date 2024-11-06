@@ -1,15 +1,6 @@
 .header {
     width: 100%;
     min-width: 1440px;
-    height: 695px;
-}
-
-.header .header__background {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
 }
 
 .header .wrapper {
@@ -112,11 +103,12 @@
 }
 
 .header__bannertontent {
-    width: 480px;
+    width: 485px;
     margin-top: 120px;
 }
 
 .header__title-large {
+    margin-top: 10px;
     font-family: 'Be Vietnam Pro';
     font-style: normal;
     font-weight: 600;
@@ -137,6 +129,7 @@
 }
 
 .header__comment {
+    margin-top: 26px;
     font-family: 'Be Vietnam Pro';
     font-style: normal;
     font-weight: 400;
@@ -146,6 +139,7 @@
 }
 
 .header__buttons {
+    margin-top: 36px;
     display: flex;
     gap: 18px;
 }
