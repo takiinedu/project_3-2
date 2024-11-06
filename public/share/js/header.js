@@ -9,7 +9,7 @@ header.innerHTML += `
                             <ul class="header__nav-list">
                                 <li class="header__nav-item"><a href="#">Trang chủ</a></li>
                                 <li class="header__nav-item"><a href="#">Danh mục</a></li>
-                                <li class="header__nav-item"><a href="#">Giới hiện</a></li>
+                                <li class="header__nav-item"><a href="#">Giới thiệu</a></li>
                                 <li class="header__nav-item"><a href="#">Liên hệ</a></li>
                             </ul>
                         </nav>
