@@ -2,6 +2,7 @@
     padding-block: 80px 40px;
     width: 100%;
     background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+    border-radius: 40px 40px 0 0;
 }
 
 .footer__signin {
