@@ -15,7 +15,12 @@ body {
 .pet-list {
     width: 100%;
 }
-
+.header__background-effect{
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}
 .section1-header {
     display: flex;
     align-items: center;
